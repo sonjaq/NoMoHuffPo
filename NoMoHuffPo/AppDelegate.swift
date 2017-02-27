@@ -39,7 +39,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let blockerIdentifier = "com.avleaf.NoMoHuffPo.ContentBlocker"
         SFContentBlockerManager.reloadContentBlocker(withIdentifier: blockerIdentifier) { error in
             guard error == nil else {
-                print("Failed to reload")
+                print(error!)
                 return
             }
             

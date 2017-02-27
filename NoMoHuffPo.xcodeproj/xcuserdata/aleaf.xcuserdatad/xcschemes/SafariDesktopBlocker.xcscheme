@@ -15,23 +15,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "21C8FD851E64913A00BB65FF"
-               BuildableName = "ContentBlocker.appex"
-               BlueprintName = "ContentBlocker"
-               ReferencedContainer = "container:NoMoHuffPo.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "21C8FD501E64910400BB65FF"
-               BuildableName = "NoMoHuffPo.app"
-               BlueprintName = "NoMoHuffPo"
+               BlueprintIdentifier = "21C8FD971E64C0DA00BB65FF"
+               BuildableName = "SafariDesktopBlocker.appex"
+               BlueprintName = "SafariDesktopBlocker"
                ReferencedContainer = "container:NoMoHuffPo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,15 +30,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21C8FD851E64913A00BB65FF"
-            BuildableName = "ContentBlocker.appex"
-            BlueprintName = "ContentBlocker"
-            ReferencedContainer = "container:NoMoHuffPo.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -74,28 +51,13 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21C8FD501E64910400BB65FF"
-            BuildableName = "NoMoHuffPo.app"
-            BlueprintName = "NoMoHuffPo"
+            BlueprintIdentifier = "21C8FD971E64C0DA00BB65FF"
+            BuildableName = "SafariDesktopBlocker.appex"
+            BlueprintName = "SafariDesktopBlocker"
             ReferencedContainer = "container:NoMoHuffPo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
-         <AdditionalOption
-            key = "MallocStackLogging"
-            value = ""
-            isEnabled = "YES">
-         </AdditionalOption>
-         <AdditionalOption
-            key = "DYLD_PRINT_LIBRARIES"
-            value = ""
-            isEnabled = "YES">
-         </AdditionalOption>
-         <AdditionalOption
-            key = "DYLD_PRINT_APIS"
-            value = ""
-            isEnabled = "YES">
-         </AdditionalOption>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
@@ -105,16 +67,15 @@
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES"
       launchAutomaticallySubstyle = "2">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21C8FD501E64910400BB65FF"
-            BuildableName = "NoMoHuffPo.app"
-            BlueprintName = "NoMoHuffPo"
+            BlueprintIdentifier = "21C8FD971E64C0DA00BB65FF"
+            BuildableName = "SafariDesktopBlocker.appex"
+            BlueprintName = "SafariDesktopBlocker"
             ReferencedContainer = "container:NoMoHuffPo.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
