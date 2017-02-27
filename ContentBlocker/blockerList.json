@@ -1,0 +1,11 @@
+[
+    {
+        "action": {
+            "type": "css-display-none"
+        },
+        "trigger": {
+            "url-filter": ".*",
+            "if-domain": ["www.huffingtonpost.com","m.huffpost.com", "huffpost.com", "huffingtonpost.com"]
+        }
+    },
+]
